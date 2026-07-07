@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\Florian\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Cityhaus-web\\\\8e97ab00-210b-4a7e-a802-2d113b4d84b0\\\\scratchpad\\\\gen_pages.ps1\")",
+      "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\index.html\")",
+      "WebFetch(domain:www.tagblatt.ch)",
+      "PowerShell(Remove-Item \"d:\\\\Cityhaus web\\\\events.html\" -Confirm:$false)",
+      "PowerShell(Remove-Item \"d:\\\\Cityhaus web\\\\sammlungen.html\" -Confirm:$false)",
+      "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\ausstellungen.html\")",
+      "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\galerie.html\")",
+      "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\kontakt.html\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\" --version)"
+    ]
+  }
+}
