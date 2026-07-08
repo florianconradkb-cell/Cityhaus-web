@@ -10,11 +10,9 @@ var translations = {
     nav_publikationen: "Publikationen",
     nav_kontakt: "Kontakt",
 
-    hero_caption: "Weinfelden / Thurgau — Archivfotografie, 1963",
+    hero_caption: "Cityhaus Weinfelden — Pestalozzistrasse 12",
 
     galerie_title: "Galerie",
-    galerie_intro: "Ein Einblick in die aktuellen Ausstellungen im Cityhaus — Werke von Arturo Di Maria und Erna Hürzeler.",
-    galerie_note: "Platzhalterbilder — bitte durch echte Aufnahmen der Werke ersetzen.",
 
     geschichte_title: "Geschichte",
     geschichte_text: "Das markante Eckgebäude in Weinfelden wurde 1963 erbaut und beherbergte über Jahrzehnte das Ladengeschäft der Familie Conrad. Seit Kurzem nutzt die Thurgauische Kunstgesellschaft die historischen Räume als Pop-up-Galerie und zeigt dort wechselnde Ausstellungen zeitgenössischer Kunst aus der Region.",
@@ -52,11 +50,9 @@ var translations = {
     nav_publikationen: "Publications",
     nav_kontakt: "Contact",
 
-    hero_caption: "Weinfelden / Thurgau — Archive Photography, 1963",
+    hero_caption: "Cityhaus Weinfelden — Pestalozzistrasse 12",
 
     galerie_title: "Gallery",
-    galerie_intro: "A look at the current exhibitions at Cityhaus — works by Arturo Di Maria and Erna Hürzeler.",
-    galerie_note: "Placeholder images — please replace with real photographs of the artworks.",
 
     geschichte_title: "History",
     geschichte_text: "The striking corner building in Weinfelden was built in 1963 and housed the Conrad family's shop for decades. Recently, the Thurgau Art Society has begun using the historic rooms as a pop-up gallery, showing changing exhibitions of contemporary art from the region.",
@@ -94,11 +90,9 @@ var translations = {
     nav_publikationen: "Publications",
     nav_kontakt: "Contact",
 
-    hero_caption: "Weinfelden / Thurgovie — Photographie d'archives, 1963",
+    hero_caption: "Cityhaus Weinfelden — Pestalozzistrasse 12",
 
     galerie_title: "Galerie",
-    galerie_intro: "Un aperçu des expositions actuelles au Cityhaus — œuvres d'Arturo Di Maria et d'Erna Hürzeler.",
-    galerie_note: "Images provisoires — à remplacer par de vraies photographies des œuvres.",
 
     geschichte_title: "Histoire",
     geschichte_text: "Le remarquable bâtiment d'angle de Weinfelden a été construit en 1963 et a abrité pendant des décennies le magasin de la famille Conrad. Depuis peu, la Société thurgovienne des beaux-arts utilise ces espaces historiques comme galerie éphémère, présentant des expositions temporaires d'art contemporain régional.",

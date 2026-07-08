@@ -49,4 +49,10 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = 'mailto:' + recipient + '?subject=' + subject + '&body=' + body;
     });
   }
+
+  document.querySelectorAll('.accordion-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function () {
+      toggle.closest('.accordion-item').classList.toggle('is-open');
+    });
+  });
 });

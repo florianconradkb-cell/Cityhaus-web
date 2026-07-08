@@ -4,14 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ausstellungen — Cityhaus</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=1783527354">
 </head>
 <body>
 
-<div class="top-strip"></div>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="index.html">CITYHAUS</a></h1>
+  <div class="logo-wrap">
+    <a href="index.html" class="logo-link">
+      <img src="assets/cityhaus-logo.svg" alt="CITYHAUS Logo">
+    </a>
+  </div>
   <p class="site-subtitle" data-i18n="founded_label">Gegründet 1963</p>
 
   <nav class="main-nav">
@@ -38,32 +41,29 @@
   </div>
 
   <div class="accordion">
-    <details open>
-      <summary>
-        <span>
-          Mädesüss trifft Teufelskralle
-          <span class="accordion-meta">Erna Hürzeler</span>
-        </span>
-      </summary>
-      <p data-i18n="ausst_huerzeler_body">Die Künstlerin Erna Hürzeler aus Wil zeigt botanisch inspirierte Werke, für die sie Farben direkt aus Pflanzen gewinnt. Die Ausstellung ist die zweite Show der neuen Pop-up-Galerie im Cityhaus.</p>
-    </details>
-    <details>
-      <summary>
-        <span>
-          Reduktion
-          <span class="accordion-meta">Arturo Di Maria</span>
-        </span>
-      </summary>
-      <p data-i18n="ausst_dimaria_body">Der aus Sizilien stammende, seit 25 Jahren im Thurgau lebende Arturo Di Maria zählt zu den letzten noch aktiven Vertretern der Konkreten Kunst. Seine Arbeiten zeichnen sich durch Klarheit und äusserste Präzision aus — ihn fasziniert «die totale Reduktion». Die Ausstellung zeigt einen Querschnitt seines Lebenswerks.</p>
-    </details>
+    <div class="accordion-item is-open">
+      <button type="button" class="accordion-toggle">
+        Mädesüss trifft Teufelskralle
+        <span class="accordion-meta">Erna Hürzeler</span>
+      </button>
+      <div class="accordion-body">
+        <p data-i18n="ausst_huerzeler_body">Die Künstlerin Erna Hürzeler aus Wil zeigt botanisch inspirierte Werke, für die sie Farben direkt aus Pflanzen gewinnt. Die Ausstellung ist die zweite Show der neuen Pop-up-Galerie im Cityhaus.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button type="button" class="accordion-toggle">
+        Reduktion
+        <span class="accordion-meta">Arturo Di Maria</span>
+      </button>
+      <div class="accordion-body">
+        <p data-i18n="ausst_dimaria_body">Der aus Sizilien stammende, seit 25 Jahren im Thurgau lebende Arturo Di Maria zählt zu den letzten noch aktiven Vertretern der Konkreten Kunst. Seine Arbeiten zeichnen sich durch Klarheit und äusserste Präzision aus — ihn fasziniert «die totale Reduktion». Die Ausstellung zeigt einen Querschnitt seines Lebenswerks.</p>
+      </div>
+    </div>
   </div>
 </main>
 
-<footer class="site-footer">
-  &copy; 2026 Cityhaus — <span data-i18n="founded_label">Gegründet 1963</span>
-</footer>
 
-<script src="js/translations.js"></script>
-<script src="js/script.js"></script>
+<script src="js/translations.js?v=1783527354"></script>
+<script src="js/script.js?v=1783527354"></script>
 </body>
 </html>
