@@ -39,21 +39,32 @@
 
 </header>
 
-<main>
-  <div class="hero-frame">
-    <img src="assets/cityhaus-building.png" alt="Cityhaus Weinfelden, Eckgebäude">
+<main class="hero-section">
+  <div class="hero-map">
+    <iframe
+      class="hero-map-bg"
+      src="https://www.google.com/maps?q=47.5674193,9.1077893&z=17&output=embed"
+      title="Standort Cityhaus Weinfelden"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <iframe
+      class="hero-map-pin"
+      src="https://www.google.com/maps?q=47.5674193,9.1077893&z=17&output=embed"
+      title=""
+      aria-hidden="true"
+      tabindex="-1"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
-  <p class="hero-caption" data-i18n="hero_caption">Cityhaus Weinfelden — Pestalozzistrasse 12</p>
+  <div class="hero-content">
+    <div class="hero-frame">
+      <img src="assets/cityhaus-building.png" alt="Cityhaus Weinfelden, Eckgebäude">
+    </div>
+    <p class="hero-caption" data-i18n="hero_caption">Cityhaus Weinfelden — Pestalozzistrasse 12</p>
+  </div>
 </main>
-
-<div class="footer-map">
-  <iframe
-    src="https://www.google.com/maps?q=47.5674193,9.1077893&z=17&output=embed"
-    title="Standort Cityhaus Weinfelden"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
 
 <script src="js/translations.js?v=1783944724"></script>
 <script src="js/script.js?v=1783944724"></script>
