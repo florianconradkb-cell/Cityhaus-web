@@ -10,7 +10,8 @@
       "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\galerie.html\")",
       "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\kontakt.html\")",
       "PowerShell(& \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\" --version)",
-      "Bash(cp \"/d/Cityhaus web/2026-07-07 21_26_42-Window.png\" \"/d/Cityhaus web/assets/cityhaus-building.png\" && ls -la \"/d/Cityhaus web/assets/\")"
+      "Bash(cp \"/d/Cityhaus web/2026-07-07 21_26_42-Window.png\" \"/d/Cityhaus web/assets/cityhaus-building.png\" && ls -la \"/d/Cityhaus web/assets/\")",
+      "WebFetch(domain:kunsthallearbon.ch)"
     ],
     "additionalDirectories": [
       "D:\\Cityhaus web"

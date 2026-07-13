@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt — Cityhaus</title>
-<link rel="stylesheet" href="css/style.css?v=1783699010">
+<link rel="stylesheet" href="css/style.css?v=1783941757">
 </head>
 <body>
 
@@ -12,10 +12,18 @@
 <header class="site-header">
   <div class="logo-wrap">
     <a href="index.html" class="logo-link">
-      <img src="assets/cityhaus-logo.svg" alt="CITYHAUS Logo">
+      <h1 class="site-title">CITYHAUS</h1>
     </a>
+    <p class="site-subtitle" data-i18n="founded_label">Gegründet 1953</p>
   </div>
-  <p class="site-subtitle" data-i18n="founded_label">Gegründet 1963</p>
+
+  <div class="lang-switch">
+    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
+  </div>
+
+  <button type="button" class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 
   <nav class="main-nav">
     <ul>
@@ -29,9 +37,6 @@
     </ul>
   </nav>
 
-  <div class="lang-switch">
-    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
-  </div>
 </header>
 
 <main>
@@ -48,19 +53,23 @@
     </iframe>
   </div>
 
-  <div class="contact-block">
-    <h3>Cityhaus Weinfelden</h3>
-    <p><span data-i18n="kontakt_operator_label">Trägerschaft:</span> Thurgauische Kunstgesellschaft</p>
-    <p>Pestalozzistrasse 12<br>8570 Weinfelden</p>
-    <p><span data-i18n="kontakt_email_label">E-Mail:</span> <span data-i18n="kontakt_email_placeholder">[E-Mail-Adresse einfügen]</span></p>
-    <p><span data-i18n="kontakt_phone_label">Telefon:</span> <span data-i18n="kontakt_phone_placeholder">[Telefonnummer einfügen]</span></p>
-  </div>
+  <div class="contact-blocks-row">
+    <div class="contact-block">
+      <h3>Cityhaus Weinfelden</h3>
+      <p>Pestalozzistrasse 12<br>8570 Weinfelden</p>
+      <p>kontakt@cityhaus-weinfelden.ch</p>
+    </div>
 
-  <p class="hero-caption" style="text-align:left;margin-bottom:30px;" data-i18n="kontakt_note">Platzhalterangaben — bitte durch die tatsächliche Adresse, E-Mail und Telefonnummer ersetzen.</p>
+    <div class="contact-block">
+      <h3 data-i18n="kontakt_hours_title">Öffnungszeiten</h3>
+      <p data-i18n="kontakt_hours_status">Momentan keine Ausstellung</p>
+      <p data-i18n="kontakt_hours_free">Eintritt frei.</p>
+    </div>
+  </div>
 
   <div class="contact-form-wrap">
     <h3 data-i18n="kontakt_form_title">Anfrage</h3>
-    <form id="contact-form" class="contact-form" data-recipient="kontakt@ihre-domain.ch">
+    <form id="contact-form" class="contact-form" data-recipient="kontakt@cityhaus-weinfelden.ch">
       <div class="form-row">
         <label for="cf-name" data-i18n="kontakt_form_name">Name</label>
         <input type="text" id="cf-name" name="name" required>
@@ -79,7 +88,7 @@
 </main>
 
 
-<script src="js/translations.js?v=1783699010"></script>
-<script src="js/script.js?v=1783699010"></script>
+<script src="js/translations.js?v=1783941757"></script>
+<script src="js/script.js?v=1783941757"></script>
 </body>
 </html>

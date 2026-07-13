@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cityhaus — Gegründet 1963</title>
-<link rel="stylesheet" href="css/style.css?v=1783699010">
+<title>Cityhaus — Gegründet 1953</title>
+<link rel="stylesheet" href="css/style.css?v=1783941757">
 </head>
 <body>
 
@@ -12,10 +12,18 @@
 <header class="site-header">
   <div class="logo-wrap">
     <a href="index.html" class="logo-link">
-      <img src="assets/cityhaus-logo.svg" alt="CITYHAUS Logo">
+      <h1 class="site-title">CITYHAUS</h1>
     </a>
+    <p class="site-subtitle" data-i18n="founded_label">Gegründet 1953</p>
   </div>
-  <p class="site-subtitle" data-i18n="founded_label">Gegründet 1963</p>
+
+  <div class="lang-switch">
+    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
+  </div>
+
+  <button type="button" class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 
   <nav class="main-nav">
     <ul>
@@ -29,9 +37,6 @@
     </ul>
   </nav>
 
-  <div class="lang-switch">
-    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
-  </div>
 </header>
 
 <main>
@@ -41,8 +46,19 @@
   <p class="hero-caption" data-i18n="hero_caption">Cityhaus Weinfelden — Pestalozzistrasse 12</p>
 </main>
 
+<div class="footer-map">
+  <iframe
+    src="https://www.google.com/maps?q=Pestalozzistrasse+12,+8570+Weinfelden&output=embed"
+    title="Standort Cityhaus Weinfelden"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <a href="kontakt.html" class="footer-map-link" aria-label="Zur Kontaktseite">
+    <span class="footer-map-label" data-i18n="nav_kontakt">Kontakt</span>
+  </a>
+</div>
 
-<script src="js/translations.js?v=1783699010"></script>
-<script src="js/script.js?v=1783699010"></script>
+<script src="js/translations.js?v=1783941757"></script>
+<script src="js/script.js?v=1783941757"></script>
 </body>
 </html>

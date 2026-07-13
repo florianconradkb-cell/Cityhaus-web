@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Künstler — Cityhaus</title>
-<link rel="stylesheet" href="css/style.css?v=1783699010">
+<link rel="stylesheet" href="css/style.css?v=1783941757">
 </head>
 <body>
 
@@ -12,10 +12,18 @@
 <header class="site-header">
   <div class="logo-wrap">
     <a href="index.html" class="logo-link">
-      <img src="assets/cityhaus-logo.svg" alt="CITYHAUS Logo">
+      <h1 class="site-title">CITYHAUS</h1>
     </a>
+    <p class="site-subtitle" data-i18n="founded_label">Gegründet 1953</p>
   </div>
-  <p class="site-subtitle" data-i18n="founded_label">Gegründet 1963</p>
+
+  <div class="lang-switch">
+    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
+  </div>
+
+  <button type="button" class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 
   <nav class="main-nav">
     <ul>
@@ -29,31 +37,37 @@
     </ul>
   </nav>
 
-  <div class="lang-switch">
-    <a href="#" data-lang="de" class="active">DE</a><span class="sep">|</span><a href="#" data-lang="fr">FR</a><span class="sep">|</span><a href="#" data-lang="en">EN</a>
-  </div>
 </header>
 
 <main>
   <div class="page-content">
     <h2 data-i18n="kuenstler_title">Künstler</h2>
-    <p data-i18n="kuenstler_intro">Die Künstlerinnen und Künstler, deren Werke aktuell im Cityhaus zu sehen sind.</p>
   </div>
 
-  <div class="artist-list">
-    <div class="artist">
-      <h3>Erna Hürzeler</h3>
-      <p data-i18n="artist_huerzeler_bio">Erna Hürzeler lebt und arbeitet in Wil. Für ihre Werke verwendet sie Farben, die sie selbst aus Pflanzen gewinnt — ein aufwendiges Verfahren, das ihre botanisch inspirierte Kunst prägt. Im Cityhaus zeigt sie mit «Mädesüss trifft Teufelskralle» eine Auswahl ihrer Pflanzenkunst.</p>
+  <div class="artist-grid">
+    <div class="artist-tile">
+      <div class="artist-tile-image">
+        <img src="assets/artist-huerzeler.svg" alt="Erna Hürzeler">
+      </div>
+      <div class="artist-tile-info">
+        <h3>Erna Hürzeler</h3>
+        <p data-i18n="artist_huerzeler_bio">Erna Hürzeler lebt und arbeitet in Wil. Für ihre Werke verwendet sie Farben, die sie selbst aus Pflanzen gewinnt — ein aufwendiges Verfahren, das ihre botanisch inspirierte Kunst prägt. Im Cityhaus zeigt sie mit «Mädesüss trifft Teufelskralle» eine Auswahl ihrer Pflanzenkunst.</p>
+      </div>
     </div>
-    <div class="artist">
-      <h3>Arturo Di Maria</h3>
-      <p data-i18n="artist_dimaria_bio">Arturo Di Maria wurde in Sizilien geboren und lebt seit 25 Jahren im Thurgau. Er gilt als einer der letzten noch aktiven Vertreter der Konkreten Kunst und ist bekannt für Werke von grosser Klarheit und Präzision. Seine Ausstellung «Reduktion» zeigt einen Querschnitt seines Lebenswerks.</p>
+    <div class="artist-tile">
+      <div class="artist-tile-image">
+        <img src="assets/artist-dimaria.svg" alt="Arturo Di Maria">
+      </div>
+      <div class="artist-tile-info">
+        <h3>Arturo Di Maria</h3>
+        <p data-i18n="artist_dimaria_bio">Arturo Di Maria wurde in Sizilien geboren und lebt seit 25 Jahren im Thurgau. Er gilt als einer der letzten noch aktiven Vertreter der Konkreten Kunst und ist bekannt für Werke von grosser Klarheit und Präzision. Seine Ausstellung «Reduktion» zeigt einen Querschnitt seines Lebenswerks.</p>
+      </div>
     </div>
   </div>
 </main>
 
 
-<script src="js/translations.js?v=1783699010"></script>
-<script src="js/script.js?v=1783699010"></script>
+<script src="js/translations.js?v=1783941757"></script>
+<script src="js/script.js?v=1783941757"></script>
 </body>
 </html>
