@@ -44,6 +44,7 @@ body {
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   border-top: 6px solid #111;
@@ -168,12 +169,6 @@ a {
 
 /* ---------- Mobile header: hamburger menu ---------- */
 @media (max-width: 768px) {
-  html.no-scroll-page,
-  html.no-scroll-page body {
-    overflow: hidden;
-    height: 100%;
-  }
-
   .site-header {
     display: flex;
     flex-wrap: wrap;
