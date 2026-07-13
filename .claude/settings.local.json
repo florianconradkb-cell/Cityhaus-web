@@ -1,5 +1,6 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
       "PowerShell(& \"C:\\\\Users\\\\Florian\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Cityhaus-web\\\\8e97ab00-210b-4a7e-a802-2d113b4d84b0\\\\scratchpad\\\\gen_pages.ps1\")",
       "PowerShell(Start-Process \"d:\\\\Cityhaus web\\\\index.html\")",
