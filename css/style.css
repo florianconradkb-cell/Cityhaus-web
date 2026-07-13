@@ -304,8 +304,13 @@ main {
 
 @media (max-width: 768px) {
   main {
+    padding-top: 20px;
     padding-bottom: 12px;
     flex-grow: 0;
+  }
+
+  .page-content {
+    padding-top: 0;
   }
 }
 
@@ -721,11 +726,16 @@ main {
 
 .footer-map-label {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 260px;
+  height: 68px;
   background: #fff;
   color: var(--color-text);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   padding: 8px 16px;
