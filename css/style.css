@@ -169,6 +169,15 @@ a {
 
 /* ---------- Mobile header: hamburger menu ---------- */
 @media (max-width: 768px) {
+  .hero-frame + .hero-caption {
+    width: 100%;
+  }
+
+  .hero-caption {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+  }
+
   .site-header {
     display: flex;
     flex-wrap: wrap;
@@ -343,6 +352,9 @@ main {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--color-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .hero-frame + .hero-caption {
