@@ -30,8 +30,8 @@ var translations = {
 
     veranstaltungen_title: "Veranstaltungen",
     veranstaltungen_intro: "Kunstdirekt: Gespräche der Thurgauischen Kunstgesellschaft im Cityhaus.",
-    veranst_dimaria_body: "Kunstdirekt: Thurgauische Kunstgesellschaft mit Sibylle Omlin, Kunstkritikerin.",
-    veranst_huerzeler_body: "Kunstdirekt: Thurgauische Kunstgesellschaft mit Dr. Gabrielle Obrist, Kunsthistorikerin.",
+    veranst_dimaria_body: "Lagerschau+ — Kunstdirekt: Thurgauische Kunstgesellschaft mit Sibylle Omlin, Kunstkritikerin",
+    veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt: Thurgauische Kunstgesellschaft mit Dr. Gabrielle Obrist, Kunsthistorikerin",
 
     kuenstler_title: "Künstler",
     artist_huerzeler_bio: "Erna Hürzeler lebt und arbeitet in Wil. Für ihre Werke verwendet sie Farben, die sie selbst aus Pflanzen gewinnt — ein aufwendiges Verfahren, das ihre botanisch inspirierte Kunst prägt. Im Cityhaus zeigt sie mit «Mädesüss trifft Teufelskralle» eine Auswahl ihrer Pflanzenkunst.",
@@ -83,8 +83,8 @@ var translations = {
 
     veranstaltungen_title: "Events",
     veranstaltungen_intro: "Kunstdirekt: talks by the Thurgau Art Society at Cityhaus.",
-    veranst_dimaria_body: "Kunstdirekt: Thurgau Art Society with Sibylle Omlin, art critic.",
-    veranst_huerzeler_body: "Kunstdirekt: Thurgau Art Society with Dr. Gabrielle Obrist, art historian.",
+    veranst_dimaria_body: "Lagerschau+ — Kunstdirekt: Thurgau Art Society with Sibylle Omlin, art critic",
+    veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt: Thurgau Art Society with Dr. Gabrielle Obrist, art historian",
 
     kuenstler_title: "Artists",
     artist_huerzeler_bio: "Erna Hürzeler lives and works in Wil. For her works she uses colours she extracts from plants herself — an elaborate process that defines her botanically inspired art. At Cityhaus she presents a selection of her plant art with “Mädesüss trifft Teufelskralle.”",
@@ -136,8 +136,8 @@ var translations = {
 
     veranstaltungen_title: "Événements",
     veranstaltungen_intro: "Kunstdirekt : rencontres de la Société thurgovienne des beaux-arts au Cityhaus.",
-    veranst_dimaria_body: "Kunstdirekt : Société thurgovienne des beaux-arts avec Sibylle Omlin, critique d'art.",
-    veranst_huerzeler_body: "Kunstdirekt : Société thurgovienne des beaux-arts avec Dr Gabrielle Obrist, historienne de l'art.",
+    veranst_dimaria_body: "Lagerschau+ — Kunstdirekt : Société thurgovienne des beaux-arts avec Sibylle Omlin, critique d'art",
+    veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt : Société thurgovienne des beaux-arts avec Dr Gabrielle Obrist, historienne de l'art",
 
     kuenstler_title: "Artistes",
     artist_huerzeler_bio: "Erna Hürzeler vit et travaille à Wil. Pour ses œuvres, elle utilise des couleurs qu'elle extrait elle-même de plantes — un procédé minutieux qui caractérise son art d'inspiration botanique. Au Cityhaus, elle présente une sélection de son art végétal avec « Mädesüss trifft Teufelskralle ».",
