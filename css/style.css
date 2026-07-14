@@ -571,26 +571,24 @@ main {
 
 /* ---------- Events archive (year-sorted) ---------- */
 .events-archive {
-  column-count: 2;
+  column-width: 220px;
   column-gap: 40px;
-}
-
-.events-year-block {
-  break-inside: avoid;
-  margin-bottom: 28px;
 }
 
 .events-year {
   display: inline-block;
+  break-inside: avoid;
+  break-after: avoid;
   background: var(--color-accent);
   color: #fff;
   font-size: 0.7rem;
   letter-spacing: 1px;
   padding: 4px 10px;
-  margin-bottom: 14px;
+  margin: 0 0 14px;
 }
 
 .events-entry {
+  break-inside: avoid;
   margin-bottom: 14px;
 }
 
