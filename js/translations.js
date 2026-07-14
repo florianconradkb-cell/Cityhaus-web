@@ -29,7 +29,6 @@ var translations = {
     ausst_dimaria_body: "Der aus Sizilien stammende, seit 25 Jahren im Thurgau lebende Arturo Di Maria zählt zu den letzten noch aktiven Vertretern der Konkreten Kunst. Seine Arbeiten zeichnen sich durch Klarheit und äusserste Präzision aus — ihn fasziniert «die totale Reduktion». Die Ausstellung zeigt einen Querschnitt seines Lebenswerks.",
 
     veranstaltungen_title: "Veranstaltungen",
-    veranstaltungen_intro: "Kunstdirekt: Gespräche der Thurgauischen Kunstgesellschaft im Cityhaus.",
     veranst_dimaria_body: "Lagerschau+ — Kunstdirekt: Thurgauische Kunstgesellschaft mit Sibylle Omlin, Kunstkritikerin",
     veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt: Thurgauische Kunstgesellschaft mit Dr. Gabrielle Obrist, Kunsthistorikerin",
 
@@ -82,7 +81,6 @@ var translations = {
     ausst_dimaria_body: "Born in Sicily and a resident of Thurgau for 25 years, Arturo Di Maria is one of the last active representatives of Concrete Art. His works are marked by clarity and extreme precision — he is fascinated, as he puts it, by “total reduction.” The exhibition presents a cross-section of his life's work.",
 
     veranstaltungen_title: "Events",
-    veranstaltungen_intro: "Kunstdirekt: talks by the Thurgau Art Society at Cityhaus.",
     veranst_dimaria_body: "Lagerschau+ — Kunstdirekt: Thurgau Art Society with Sibylle Omlin, art critic",
     veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt: Thurgau Art Society with Dr. Gabrielle Obrist, art historian",
 
@@ -135,7 +133,6 @@ var translations = {
     ausst_dimaria_body: "Né en Sicile et installé en Thurgovie depuis 25 ans, Arturo Di Maria est l'un des derniers représentants actifs de l'art concret. Ses œuvres se distinguent par leur clarté et leur extrême précision — il se dit fasciné par « la réduction totale ». L'exposition présente un aperçu de son œuvre.",
 
     veranstaltungen_title: "Événements",
-    veranstaltungen_intro: "Kunstdirekt : rencontres de la Société thurgovienne des beaux-arts au Cityhaus.",
     veranst_dimaria_body: "Lagerschau+ — Kunstdirekt : Société thurgovienne des beaux-arts avec Sibylle Omlin, critique d'art",
     veranst_huerzeler_body: "Mädesüss trifft Teufelskralle — Kunstdirekt : Société thurgovienne des beaux-arts avec Dr Gabrielle Obrist, historienne de l'art",
 
