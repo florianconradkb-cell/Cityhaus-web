@@ -90,7 +90,7 @@ a {
   font-family: 'Barlow Condensed SemiBold', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: -0.01em;
   font-size: clamp(2.2rem, 9vw, 4.2rem);
   color: var(--color-accent);
   line-height: 1;
@@ -169,10 +169,6 @@ a {
 
 /* ---------- Mobile header: hamburger menu ---------- */
 @media (max-width: 768px) {
-  .hero-frame + .hero-caption {
-    width: 100%;
-  }
-
   .hero-caption {
     font-size: 0.6rem;
     letter-spacing: 1px;
@@ -320,54 +316,8 @@ main {
   }
 }
 
-main.hero-section {
+.hero-frame {
   position: relative;
-  max-width: none;
-  margin: 0;
-  overflow: hidden;
-}
-
-.hero-map {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  overflow: hidden;
-  --map-shift: 275px;
-}
-
-@media (max-width: 768px) {
-  .hero-map {
-    --map-shift: 103px;
-  }
-}
-
-.hero-map iframe {
-  display: block;
-  position: absolute;
-  top: -60px;
-  left: -60px;
-  width: calc(100% + 120px);
-  height: calc(100% + 120px + 2 * var(--map-shift));
-  border: 0;
-  pointer-events: none;
-}
-
-.hero-map-bg {
-  filter: grayscale(1) contrast(1.05);
-}
-
-.hero-map-pin {
-  pointer-events: none;
-  -webkit-mask-image: radial-gradient(circle 30px at 50% calc(50% - 20px), #000 55%, transparent 100%);
-  mask-image: radial-gradient(circle 30px at 50% calc(50% - 20px), #000 55%, transparent 100%);
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 .hero-frame img,
@@ -397,21 +347,16 @@ main.hero-section {
 }
 
 .hero-caption {
+  width: 80%;
+  margin: 16px auto 0;
   text-align: right;
-  margin-top: 16px;
   font-size: 0.7rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--color-muted);
+  color: var(--color-accent);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.hero-frame + .hero-caption {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ---------- Generic page content ---------- */
@@ -606,6 +551,14 @@ main.hero-section {
   margin: 0;
 }
 
+.accordion-body p.accordion-subtitle {
+  margin: 0 0 10px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
 .accordion-image {
   display: block;
   width: 220px;
@@ -663,6 +616,28 @@ main.hero-section {
   color: #555;
   font-size: 0.9rem;
   margin: 0;
+}
+
+.artist-tile p.artist-links {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.artist-tile p.artist-links a {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-left: 14px;
+}
+
+.artist-tile p.artist-links a:first-child {
+  margin-left: 0;
+}
+
+.artist-tile p.artist-links a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 700px) {
