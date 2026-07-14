@@ -36,7 +36,6 @@ var translations = {
     kuenstler_title: "Künstler",
     artist_huerzeler_bio: "Erna Hürzeler lebt und arbeitet in Wil. Für ihre Werke verwendet sie Farben, die sie selbst aus Pflanzen gewinnt — ein aufwendiges Verfahren, das ihre botanisch inspirierte Kunst prägt. Im Cityhaus zeigt sie mit «Mädesüss trifft Teufelskralle» eine Auswahl ihrer Pflanzenkunst.",
     artist_huerzeler_vita_pdf: "Vita (PDF)",
-    artist_huerzeler_vita_doc: "Vita (Word)",
     artist_dimaria_bio: "Arturo Di Maria wurde in Sizilien geboren und lebt seit 25 Jahren im Thurgau. Er gilt als einer der letzten noch aktiven Vertreter der Konkreten Kunst und ist bekannt für Werke von grosser Klarheit und Präzision. Seine Ausstellung «Reduktion» zeigt einen Querschnitt seines Lebenswerks.",
 
     publikationen_title: "Presse",
@@ -90,7 +89,6 @@ var translations = {
     kuenstler_title: "Artists",
     artist_huerzeler_bio: "Erna Hürzeler lives and works in Wil. For her works she uses colours she extracts from plants herself — an elaborate process that defines her botanically inspired art. At Cityhaus she presents a selection of her plant art with “Mädesüss trifft Teufelskralle.”",
     artist_huerzeler_vita_pdf: "CV (PDF)",
-    artist_huerzeler_vita_doc: "CV (Word)",
     artist_dimaria_bio: "Arturo Di Maria was born in Sicily and has lived in Thurgau for 25 years. He is regarded as one of the last active representatives of Concrete Art and is known for works of great clarity and precision. His exhibition “Reduktion” presents a cross-section of his life's work.",
 
     publikationen_title: "Press",
@@ -144,7 +142,6 @@ var translations = {
     kuenstler_title: "Artistes",
     artist_huerzeler_bio: "Erna Hürzeler vit et travaille à Wil. Pour ses œuvres, elle utilise des couleurs qu'elle extrait elle-même de plantes — un procédé minutieux qui caractérise son art d'inspiration botanique. Au Cityhaus, elle présente une sélection de son art végétal avec « Mädesüss trifft Teufelskralle ».",
     artist_huerzeler_vita_pdf: "CV (PDF)",
-    artist_huerzeler_vita_doc: "CV (Word)",
     artist_dimaria_bio: "Arturo Di Maria est né en Sicile et vit en Thurgovie depuis 25 ans. Il est considéré comme l'un des derniers représentants actifs de l'art concret, reconnu pour des œuvres d'une grande clarté et précision. Son exposition « Reduktion » présente un aperçu de son œuvre.",
 
     publikationen_title: "Presse",
