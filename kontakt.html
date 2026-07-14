@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Besucherinfo — Cityhaus</title>
 <link rel="stylesheet" href="css/style.css?v=1783944724">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="">
 </head>
 <body>
 
@@ -45,14 +48,7 @@
     <h2 data-i18n="kontakt_title">Besucherinfo</h2>
   </div>
 
-  <div class="map-frame">
-    <iframe
-      src="https://www.google.com/maps?q=47.5674193,9.1077893&z=17&output=embed"
-      title="Standort Cityhaus Weinfelden"
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
+  <div id="kontakt-map" class="map-frame" role="img" aria-label="Standort Cityhaus Weinfelden"></div>
 
   <div class="contact-blocks-row">
     <div class="contact-block">
@@ -89,7 +85,11 @@
 </main>
 
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 <script src="js/translations.js?v=1783944724"></script>
 <script src="js/script.js?v=1783944724"></script>
+<script src="js/kontakt-map.js?v=1783944724"></script>
 </body>
 </html>
